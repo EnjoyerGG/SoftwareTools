@@ -1,0 +1,182 @@
+<!-- write CSS code in style -->
+<style>
+    .subscribe-button {
+        /*start with dot means target to class name */
+        /* background color */
+        background-color: rgb(199, 0, 0);
+        /* text color */
+        color: white;
+        /* boarder style */
+        border: none;
+        /* change size */
+        height: 36px;
+        width: 150px;
+        /* round boarder */
+        border-radius: 2px;
+        /* change cursor */
+        cursor: pointer;
+        /* add space */
+        margin-right: 8px;
+        /* 光滑过渡 */
+        transition: opacity 0.15s;
+
+    }
+
+    /* hover to change the color */
+    .subscribe-button:hover {
+        /* pseudo-class */
+        opacity: 0.8;
+    }
+
+    /* click to change the color */
+    .subscribe-button:active {
+        /* pseudo-class */
+        opacity: 0.5;
+    }
+
+    .join-button {
+        background-color: white;
+        border-color: rgb(52, 192, 248);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(52, 192, 248);
+        height: 36px;
+        width: 62px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: background-color 0.15s, color 0.15s;
+    }
+
+    .join-button:hover {
+        background-color: rgb(52, 192, 248);
+        color: white;
+    }
+
+    .join-button:active {
+        opacity: 0.7;
+    }
+
+    .twitter-button {
+        background-color: rgb(52, 192, 248);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 74px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s, color 0.15s;
+    }
+
+    .twitter-button:hover {
+        /* add shadow */
+        /* horizonal vertical opacity color-pure*/
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+</style>
+<!-- Google the properties instead of memorising them -->
+
+<button class="subscribe-button"> <!-- use class to identify among the other stuff -->
+    SUBSCRIBE
+</button>
+
+<button class="join-button">
+    JOIN
+</button>
+
+<button class="twitter-button">
+    TWEET
+</button>
+<br>
+
+
+<!-- Exercies -->
+<style>
+    .Amazon {
+        color: rgb(0, 113, 133);
+        font-size: 20px;
+        transition: color 0.15s;
+    }
+
+    .Amazon:hover {
+        color: red
+    }
+
+    .Nike {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .price {
+        color: rgb(2, 118, 0);
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .Delivery {
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+    }
+
+    .Add {
+        background-color: rgb(255, 216, 20);
+        font-size: 21px;
+        height: 50px;
+        width: 175px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        margin-right: 10px;
+        transition: background-color 0.15s;
+    }
+
+    .Add:hover {
+        background-color: rgb(193, 165, 25);
+    }
+
+    .Add.active {
+        opacity: 0.7;
+    }
+
+    .Buy {
+        background-color: rgb(255, 164, 28);
+        font-size: 21px;
+        height: 50px;
+        width: 150px;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.15s;
+    }
+
+    .Buy:hover {
+        background-color: rgb(255, 98, 20);
+    }
+
+    .Buy.active {
+        opacity: 0.5;
+    }
+</style>
+<p>
+    <a href="https://www.Amazon.com" class="Amazon">Back to Amazon</a><br>
+<p class="Nike">
+    Nike Black Running Shoes
+</p>
+<p class="price">
+    $39 - in stock.
+</p>
+<p class="Delivery">
+    Free delivery tomorrow.
+</p>
+</p>
+
+<button class="Add">
+    Add to Cart
+</button>
+<button class="Buy">
+    Buy now
+</button>
+
+<!-- why there is no change when clicking the buttons in challenge? -->
