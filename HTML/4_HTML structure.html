@@ -1,0 +1,41 @@
+<!--proper structure-->
+<!DOCTYPE html>
+<html> <!--<html> is a web page-->
+
+<head> <!--invisible in the page-->
+    <title>
+        Buttons Practice <!-- the title of the web page, didn't show up on the page-->
+    </title>
+    <style>
+        .subscribe {
+            background-color: blue;
+            /* the background color of the button is blue*/
+            color: white;
+            /* the text color of the button is white*/
+            padding: 10px 20px;
+            /* the padding of the button is 10px on top and bottom, 20px on left and right*/
+            border: none;
+            /* the button has no border*/
+            border-radius: 5px;
+            /* the border radius of the button is 5px*/
+            cursor: pointer;
+            /* the cursor of the button is a pointer*/
+        }
+    </style>
+</head>
+
+<body> <!--visible in the page-->
+    <button class="subscribe">
+        SUBSCRIBE <!-- a button with the text "SUBSCRIBE"-->
+    </button>
+</body>
+
+</html>
+
+
+<!--in order to seperate the CSS from html, <link> can be used-->
+<!-- say the style.css exists-->
+<link rel="stylesheet" href="style.css">
+
+<!--to load google font, we should copy the font links and paste them to the <head>s in .html,
+    and then use it in .css file, like font-family: Roboto-->
