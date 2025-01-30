@@ -1,0 +1,35 @@
+<!--use CSS box model -->
+<!--use padding is better than setting limit height and width-->
+<style>
+    .subscribe {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-right: 8px;
+        margin-left: 20px;
+        border: none;
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: opacity 0.15s;
+        vertical-align: top;
+        /*align with the margin*/
+    }
+
+    .subscribe:hover {
+        opacity: 0.8;
+    }
+
+    .subscribe:active {
+        background-color: #ac1005;
+    }
+</style>
+
+<button class="subscribe">
+    Subscribe
+</button>
+
+<!--using CSS box model can achieve many stuff like Pagination, Stretch and 3D clicks -->
