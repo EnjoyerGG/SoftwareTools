@@ -8,7 +8,7 @@
 
 .left-section {
   background-color: lightblue;
-  width: 150px;
+  width: 150px; //固定大小，使其不会随着窗口大小变化而变化
 }
 
 .middle-section {
@@ -21,5 +21,5 @@
 
 .right-section {
   background-color: lightblue;
-  width: 200px;
+  width: 200px; //同理，固定大小
 }
