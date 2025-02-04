@@ -5,6 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
 
+  /*保证header能够一直固定，随着滚动条的移动*/
   position: fixed;
   top: 0;
   left: 0;
