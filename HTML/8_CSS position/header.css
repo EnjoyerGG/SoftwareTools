@@ -11,6 +11,7 @@
   left: 0;
   right: 0;
 
+  /*添加边框*/
   background-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
