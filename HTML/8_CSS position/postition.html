@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Position Practice</title>
+  </head>
+
+  <body style="
+    height: 3000px;
+    padding-top: 60px;
+    ">
+    <div style="
+      background-color: black;
+      color: white;
+      position: fixed; /*随着进度条拉动，会一直固定在顶端*/
+      top: 10px; /*和浏览器顶端的距离*/
+      left: 50px; /*和浏览器左边的距离*/
+      right: 50px; /*当要同时满足left和right的时候，该div就会拉伸*/
+      ">header</div>
+    
+    <div style="
+      background-color: lightblue;
+      height: 200px;
+      width: 200px;
+      position: static; /*基础情况，default*/
+      ">div 1</div>
+
+    <div style="
+      background-color: lightpink;
+      height: 200px;
+      width: 200px;
+      ">div 2</div>    
+  </body>
+</html>
