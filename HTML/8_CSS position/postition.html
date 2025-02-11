@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<
+html>
   <head>
     <title>Position Practice</title>
   </head>
@@ -39,11 +40,21 @@
       width: 200px;
       position: static; /*基础情况，default*/
       ">div 1</div>
-
+    //在图标上显示小红点（消息）
+    //置于div里面的absolute将会放置于图标div之上，而不是page上
     <div style="
       background-color: lightpink;
       height: 200px;
       width: 200px;
-      ">div 2</div>    
+      ">div 2
+      <div style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: 60px;
+        right: 10px;
+        ">
+        absolute
+    </div>    
   </body>
 </html>
